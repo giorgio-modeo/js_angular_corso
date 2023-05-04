@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../playscript-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js_angular_corso"
+	}
+}
