@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <form action="" method="post">
+        <label for="username" ">username</label>
+        <input type="text" name="username" id="username">
+       <label for="password" >password</label>
+       <input type="password" name="password" id="password">
+        <input type="submit" value="Login">
+   </form>
+   <script>
+        const USER = document.querySelector("#username");
+        const PWD = document.querySelector("#password");
+        USER.onfocus=function() {console.log("sei entrato nel campo user");}
+        PWD.addEventListener('focus', () => {console. log ('sei entrato nel campo password' )});
+
+   </script>
+   
+</html>

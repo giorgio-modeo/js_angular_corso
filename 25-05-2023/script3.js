@@ -1,18 +1,8 @@
-const URL = 'https://jsonplaceholder.typicode.com/posts';
+const URL = 'http://localhost:8090/utente';
 fetch(URL)//promise
 
     .then(    response => response.json()    )
     .then(response =>{
-        /*
-        for (let index = 0; index < response.length; index++) {
-            const element = response[index];
-            console.log(element.title);
-        }
-
-        response.forEach(post => {
-            console.log(post.title);
-        });
-        */
        const UL = document.createElement('ul');
         for (const post of response) {
             const LI = document.createElement('li');
